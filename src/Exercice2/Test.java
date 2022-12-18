@@ -52,8 +52,8 @@ public class Test {
 
             System.out.println("Taper q pour quitter ou n'importe quoi pour repeter");
             String option = scanner.nextLine();
-            if (option == "q"){
-                    loop = false;
+            if (option.equalsIgnoreCase("q")){
+                loop = false;
             }
         }
     }
